@@ -1,0 +1,235 @@
+body{
+    /*background-image:url(../img/fond2.jpg);*/
+    background-color:#dadccf;
+}
+
+
+html{
+max-width:100%;
+min-width:320px;
+background-color:#bcbab5;
+/*#c4c1bc;
+background-color:#d3d3c9;*/
+
+height:100%;
+}
+@media screen and (min-width: 320px) and (max-width: 700px) { 
+
+
+  nav a
+    {
+        font-size: 0.6em;
+       
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+
+ }
+
+
+
+ @media screen and (min-width: 701px) and (max-width: 1020px) { 
+
+
+  nav a
+    {
+        font-size: 0.9em;
+        
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+ }
+
+ @media screen and (min-width: 1021px){ 
+
+
+  nav a
+    {
+        font-size: 0.85em;
+        
+        
+    }
+
+
+
+ }
+
+
+
+
+#menuMobile img{
+	max-width:100%;
+}
+
+header{
+	
+	height:150px;
+	display:flex;
+	justify-content: space-between;
+   	max-width:100%;
+	margin:0 auto;
+    background-image:url(../img/fondEntete3.jpg);
+    background-repeat:no-repeat;
+}
+ 
+#page{
+    max-width: 100%;
+    min-width: 320px;
+}
+
+#page2{
+    display:flex;
+   
+    max-width: 100%;
+   
+    min-width: 320px;
+}
+#page3{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+#photo{
+	max-width:100%;
+}
+
+#pageRadio{
+     display:flex;
+     margin:auto;
+     max-width:80%;
+     min-width: 320px;
+}
+#lecteur{
+     display:flex;
+     margin:auto;
+     width:100%;
+     min-width: 320px;
+     
+}
+#photo2{
+    
+   max-width:80%;
+   margin: 0 auto;
+}
+
+#sousEntete{
+    display:flex;
+	width:80%;
+	margin:0 auto;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+
+#logo{
+   
+  align-self:center;
+    
+}
+#logo img{
+    
+	max-width:100%;
+}
+#menu{
+	height:150px;
+	display:flex;
+	flex-direction:column;
+
+	
+	align-items:flex-end;
+   
+
+}
+nav{
+	display:flex;
+
+  flex:1;	
+	
+}
+
+nav ul
+{
+  
+    display:flex;
+   
+	align-self:flex-end;
+    list-style-type: none;
+  
+
+  
+}
+
+nav li
+{
+
+   
+    margin-left: 20px;
+ 
+}
+
+nav a
+{
+
+    display:flex;
+   
+	
+    color:white;
+    
+    text-decoration: none;
+}
+
+#icones{
+	display:flex;
+}
+
+.icone{
+	max-width:100%;
+	
+	margin-left: 10px;
+}
+
+#pied{
+	max-width:100%;
+	margin:auto;
+}
+
+footer{
+    background-image:url(../img/fondEntete3.jpg);
+    background-repeat:no-repeat;
+}
+
+#fondateur{
+	float:right;
+	display:block;
+	color:white;
+	font-size:1.2em;
+}
+#imgRadioMenu{
+
+    max-width:80px;
+
+}
+#titreRadio{
+    display:flex;
+    width:100%;
+    height:80px;
+    background-image:url(../img/fondEntete3.jpg);
+}
+#titreRadio h2{
+
+    margin:auto;
+    color: white;
+}
+
+
+
